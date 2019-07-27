@@ -1,0 +1,5 @@
+.jumbotron {
+    background-image: url("/photos/giphy.gif");
+    /* background-size: cover; */
+    color: white;
+  }
