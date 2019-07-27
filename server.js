@@ -3,6 +3,8 @@ var logger = require("morgan");
 var mongoose = require("mongoose");
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/unit18Populater";
 
+console.log({MONGODB_URI})
+
 mongoose.connect(MONGODB_URI);
 
 
